@@ -5,11 +5,11 @@ public class Vehicle {
     private boolean isMoving;
     private Gear gear;
 
-    public void move(){
+    public void move() {
         isMoving = true;
     }
 
-    public void stop(){
+    public void stop() {
         isMoving = false;
     }
 

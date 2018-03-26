@@ -8,8 +8,8 @@ public class EventHandler {
         this.vehicle = vehicle;
     }
 
-    public void changeDrivingMode(final DrivingMode drivingMode){
-        switch (drivingMode){
+    public void changeDrivingMode(final DrivingMode drivingMode) {
+        switch (drivingMode) {
             case SPORT:
                 vehicle.setPower(500);
                 vehicle.setSuspensionHeight(10);

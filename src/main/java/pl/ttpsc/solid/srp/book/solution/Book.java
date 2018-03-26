@@ -26,7 +26,7 @@ public class Book {
     }
 
     public void turnPage() {
-        currentPage ++;
+        currentPage++;
     }
 
     public Map<Integer, String> getPages() {
@@ -44,6 +44,7 @@ public class Book {
 
     /**
      * Gives the row location of the book.
+     *
      * @return
      */
     public String getLocationRowLocator() {
@@ -52,6 +53,7 @@ public class Book {
 
     /**
      * Gives the number from shelf.
+     *
      * @return
      */
     public int getIndexOnShelf() {

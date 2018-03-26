@@ -7,14 +7,11 @@ public class Greeter {
     public String greet() {
         if (this.formality == "formal") {
             return "Good evening, sir.";
-        }
-        else if (this.formality == "casual") {
+        } else if (this.formality == "casual") {
             return "Sup bro?";
-        }
-        else if (this.formality == "intimate") {
+        } else if (this.formality == "intimate") {
             return "Hello Darling!";
-        }
-        else {
+        } else {
             return "Hello.";
         }
     }

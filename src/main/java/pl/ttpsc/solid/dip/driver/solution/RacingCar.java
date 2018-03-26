@@ -1,6 +1,6 @@
 package pl.ttpsc.solid.dip.driver.solution;
 
-public class RacingCar implements Vehicle{
+public class RacingCar implements Vehicle {
 
     private final int maxFuel;
     private int remainingFuel;

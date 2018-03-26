@@ -4,11 +4,11 @@ public class Driver {
 
     private RacingCar vehicle;
 
-    public Driver(){
+    public Driver() {
         this.vehicle = new RacingCar(100);
     }
 
-    public void increaseSpeed(){
+    public void increaseSpeed() {
         vehicle.accelerate();
     }
 }

@@ -11,7 +11,7 @@ public class LimousineCar {
         remainingFuel = maxFuel;
     }
 
-    public void accelerate(){
+    public void accelerate() {
         power++;
         remainingFuel--;
     }

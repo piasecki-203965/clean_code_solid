@@ -7,7 +7,7 @@ public class BookPrinter implements Printable<Book> {
     @Override
     public String printAllPages(Book obj) {
         String allPages = new String();
-        for(Map.Entry<Integer, String> page : obj.getPages().entrySet()) {
+        for (Map.Entry<Integer, String> page : obj.getPages().entrySet()) {
             allPages += (page.getKey() + " " + page.getValue());
         }
         return allPages;

@@ -11,7 +11,7 @@ public class Vehicle {
     }
 
     // this is not a car's responsibility.
-    public void reFuel(){
+    public void reFuel() {
         remainingFuel = maxFuel;
     }
 

@@ -26,7 +26,7 @@ public class BookAndPrinter {
     }
 
     public void turnPage() {
-        currentPage ++;
+        currentPage++;
     }
 
     /**
@@ -47,6 +47,7 @@ public class BookAndPrinter {
 
     /**
      * Gives the row location of the book.
+     *
      * @return
      */
     public String getLocationRowLocator() {
@@ -55,6 +56,7 @@ public class BookAndPrinter {
 
     /**
      * Gives the number from shelf.
+     *
      * @return
      */
     public int getIndexOnShelf() {
@@ -63,14 +65,15 @@ public class BookAndPrinter {
 
     /**
      * Prints all pages
+     *
      * @return
      */
     public String printAllPages() {
 
         String allPages = new String();
-        for(Map.Entry<Integer, String> page : pages.entrySet()) {
+        for (Map.Entry<Integer, String> page : pages.entrySet()) {
             allPages += (page.getKey() + " " + page.getValue());
         }
-        return  allPages;
+        return allPages;
     }
 }

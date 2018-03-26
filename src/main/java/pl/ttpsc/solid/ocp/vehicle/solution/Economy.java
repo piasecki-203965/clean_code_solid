@@ -1,6 +1,6 @@
 package pl.ttpsc.solid.ocp.vehicle.solution;
 
-public class Economy implements DrivingMode{
+public class Economy implements DrivingMode {
 
     private static final int POWER = 300;
     private static final int SUSPENSION_HEIGHT = 20;
