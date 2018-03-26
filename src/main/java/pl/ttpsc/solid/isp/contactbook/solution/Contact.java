@@ -1,6 +1,6 @@
 package pl.ttpsc.solid.isp.contactbook.solution;
 
-class Contact implements Dialable, Emailable{
+class Contact implements Dialable, Emailable {
     public String name;
     public String address;
     public String emailAddress;
